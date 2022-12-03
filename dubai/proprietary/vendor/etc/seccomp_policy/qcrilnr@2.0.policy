@@ -19,7 +19,7 @@
 # limitations under the License.
 
 gettid: 1
-prctl: arg0 == PR_SET_VMA || arg0 == PR_SET_NAME || arg0 == PR_GET_DUMPABLE || arg0 == PR_GET_NAME || arg0 == PR_SET_TIMERSLACK || arg0 == 0x37 || arg0 == PR_GET_NO_NEW_PRIVS || arg0 == PR_SET_DUMPABLE || arg0 == PR_SET_PTRACER || arg0 == PR_CAP_AMBIENT || arg0 == PR_SET_KEEPCAPS
+prctl: arg0 == PR_SET_VMA || arg0 == PR_SET_NAME || arg0 == PR_GET_DUMPABLE || arg0 == PR_GET_NAME || arg0 == PR_SET_TIMERSLACK || arg0 == 0x37 || arg0 == PR_GET_NO_NEW_PRIVS || arg0 == PR_SET_DUMPABLE || arg0 == PR_SET_PTRACER || arg0 == PR_CAP_AMBIENT
 write: 1
 read: 1
 close: 1
@@ -103,15 +103,3 @@ recv: 1
 dup: 1
 process_vm_readv: 1
 rt_tgsigqueueinfo: 1
-wait4: 1
-# for motext
-setuid: 1
-kill: 1
-eventfd2: 1
-fchownat: 1
-#for cutback
-setgroups: 1
-setgid : 1
-capset: 1
-inotify_rm_watch: 1
-shutdown: 1
