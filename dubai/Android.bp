@@ -46,31 +46,9 @@ cc_prebuilt_library_shared {
 }
 
 android_app_import {
-	name: "CACertService",
-	owner: "motorola",
-	apk: "proprietary/vendor/app/CACertService/CACertService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
-}
-
-android_app_import {
 	name: "CneApp",
 	owner: "motorola",
 	apk: "proprietary/vendor/app/CneApp/CneApp.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
-}
-
-android_app_import {
-	name: "ConnectionSecurityService",
-	owner: "motorola",
-	apk: "proprietary/vendor/app/ConnectionSecurityService/ConnectionSecurityService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -101,6 +79,116 @@ android_app_import {
 }
 
 android_app_import {
+	name: "CallFeaturesSetting",
+	owner: "motorola",
+	apk: "proprietary/product/app/CallFeaturesSetting/CallFeaturesSetting.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
+	name: "ConfURIDialer",
+	owner: "motorola",
+	apk: "proprietary/product/app/ConfURIDialer/ConfURIDialer.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
+	name: "ConferenceDialer",
+	owner: "motorola",
+	apk: "proprietary/product/app/ConferenceDialer/ConferenceDialer.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
+	name: "remoteSimLockAuthentication",
+	owner: "motorola",
+	apk: "proprietary/product/app/remoteSimLockAuthentication/remoteSimLockAuthentication.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
+	name: "remotesimlockservice",
+	owner: "motorola",
+	apk: "proprietary/product/app/remotesimlockservice/remotesimlockservice.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
+	name: "uimgbaservice",
+	owner: "motorola",
+	apk: "proprietary/product/app/uimgbaservice/uimgbaservice.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
+	name: "uimlpaservice",
+	owner: "motorola",
+	apk: "proprietary/product/app/uimlpaservice/uimlpaservice.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
+	name: "uimremoteclient",
+	owner: "motorola",
+	apk: "proprietary/product/app/uimremoteclient/uimremoteclient.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
+	name: "uimremoteserver",
+	owner: "motorola",
+	apk: "proprietary/product/app/uimremoteserver/uimremoteserver.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
+	name: "xdivert",
+	owner: "motorola",
+	apk: "proprietary/product/app/xdivert/xdivert.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
 	name: "HotwordEnrollmentOKGoogleHEXAGON",
 	owner: "motorola",
 	apk: "proprietary/product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk",
@@ -124,6 +212,251 @@ android_app_import {
 	product_specific: true,
 }
 
+android_app_import {
+	name: "DeviceInfo",
+	owner: "motorola",
+	apk: "proprietary/system_ext/app/DeviceInfo/DeviceInfo.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "DeviceStatisticsService",
+	owner: "motorola",
+	apk: "proprietary/system_ext/app/DeviceStatisticsService/DeviceStatisticsService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "DynamicDDSService",
+	owner: "motorola",
+	apk: "proprietary/system_ext/app/DynamicDDSService/DynamicDDSService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "ImsRcsService",
+	owner: "motorola",
+	apk: "proprietary/system_ext/app/ImsRcsService/ImsRcsService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "QtiTelephony",
+	owner: "motorola",
+	apk: "proprietary/system_ext/app/QtiTelephony/QtiTelephony.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "QtiTelephonyService",
+	owner: "motorola",
+	apk: "proprietary/system_ext/app/QtiTelephonyService/QtiTelephonyService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "SimContact",
+	owner: "motorola",
+	apk: "proprietary/system_ext/app/SimContact/SimContact.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "atfwd",
+	owner: "motorola",
+	apk: "proprietary/system_ext/app/atfwd/atfwd.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "embms",
+	owner: "motorola",
+	apk: "proprietary/system_ext/app/embms/embms.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "imssettings",
+	owner: "motorola",
+	apk: "proprietary/system_ext/app/imssettings/imssettings.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "uceShimService",
+	owner: "motorola",
+	apk: "proprietary/system_ext/app/uceShimService/uceShimService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "QAS_DVC_MSP",
+	owner: "motorola",
+	apk: "proprietary/system_ext/priv-app/QAS_DVC_MSP/QAS_DVC_MSP.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "dpmserviceapp",
+	owner: "motorola",
+	apk: "proprietary/system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "ims",
+	owner: "motorola",
+	apk: "proprietary/system_ext/priv-app/ims/ims.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "qcrilmsgtunnel",
+	owner: "motorola",
+	apk: "proprietary/system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "tcmclient",
+	owner: "motorola",
+	jars: ["proprietary/system/framework/tcmclient.jar"],
+}
+
+dex_import {
+	name: "remotesimlockmanagerlibrary",
+	owner: "motorola",
+	jars: ["proprietary/product/framework/remotesimlockmanagerlibrary.jar"],
+	product_specific: true,
+}
+
+dex_import {
+	name: "uimgbalibrary",
+	owner: "motorola",
+	jars: ["proprietary/product/framework/uimgbalibrary.jar"],
+	product_specific: true,
+}
+
+dex_import {
+	name: "uimgbamanagerlibrary",
+	owner: "motorola",
+	jars: ["proprietary/product/framework/uimgbamanagerlibrary.jar"],
+	product_specific: true,
+}
+
+dex_import {
+	name: "uimlpalibrary",
+	owner: "motorola",
+	jars: ["proprietary/product/framework/uimlpalibrary.jar"],
+	product_specific: true,
+}
+
+dex_import {
+	name: "uimremoteclientlibrary",
+	owner: "motorola",
+	jars: ["proprietary/product/framework/uimremoteclientlibrary.jar"],
+	product_specific: true,
+}
+
+dex_import {
+	name: "uimremoteserverlibrary",
+	owner: "motorola",
+	jars: ["proprietary/product/framework/uimremoteserverlibrary.jar"],
+	product_specific: true,
+}
+
+dex_import {
+	name: "uimremotesimlocklibrary",
+	owner: "motorola",
+	jars: ["proprietary/product/framework/uimremotesimlocklibrary.jar"],
+	product_specific: true,
+}
+
+dex_import {
+	name: "uimservicelibrary",
+	owner: "motorola",
+	jars: ["proprietary/product/framework/uimservicelibrary.jar"],
+	product_specific: true,
+}
+
+dex_import {
+	name: "moto-telephony",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/moto-telephony.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "ActivityExt",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/ActivityExt.jar"],
+	system_ext_specific: true,
+}
+
 dex_import {
 	name: "com.android.hotwordenrollment.common.util",
 	owner: "motorola",
@@ -132,9 +465,513 @@ dex_import {
 }
 
 dex_import {
+	name: "com.qti.dpmframework",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/com.qti.dpmframework.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.qualcomm.qti.imscmservice-V2.0-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/com.qualcomm.qti.imscmservice-V2.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.qualcomm.qti.imscmservice-V2.1-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/com.qualcomm.qti.imscmservice-V2.1-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.qualcomm.qti.imscmservice-V2.2-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/com.qualcomm.qti.imscmservice-V2.2-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.qualcomm.qti.uceservice-V2.0-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/com.qualcomm.qti.uceservice-V2.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.qualcomm.qti.uceservice-V2.1-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/com.qualcomm.qti.uceservice-V2.1-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.qualcomm.qti.uceservice-V2.2-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/com.qualcomm.qti.uceservice-V2.2-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.qualcomm.qti.uceservice-V2.3-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/com.qualcomm.qti.uceservice-V2.3-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.quicinc.cne.api-V1.0-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/com.quicinc.cne.api-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.quicinc.cne.api-V1.1-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/com.quicinc.cne.api-V1.1-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.quicinc.cne.constants-V1.0-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/com.quicinc.cne.constants-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.quicinc.cne.constants-V2.0-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/com.quicinc.cne.constants-V2.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.quicinc.cne.constants-V2.1-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/com.quicinc.cne.constants-V2.1-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "dpmapi",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/dpmapi.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "embmslibrary",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/embmslibrary.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "qcrilhook",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/qcrilhook.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "qti-telephony-common",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/qti-telephony-common.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.data.factory-V1.0-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.data.factory-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.data.factory-V2.0-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.data.factory-V2.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.data.factory-V2.1-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.data.factory-V2.1-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.data.factory-V2.2-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.data.factory-V2.2-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.data.factory-V2.3-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.data.factory-V2.3-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.data.factory-V2.4-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.data.factory-V2.4-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.data.factory-V2.5-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.data.factory-V2.5-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.data.factory-V2.6-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.data.factory-V2.6-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.data.factory-V2.7-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.data.factory-V2.7-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.data.mwqem-V1.0-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.data.mwqem-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.data.slm-V1.0-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.data.slm-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
 	name: "vendor.qti.hardware.alarm-V1.0-java",
 	owner: "motorola",
 	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.alarm-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.data.cne.internal.api-V1.0-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.data.cne.internal.api-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.data.cne.internal.constants-V1.0-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.data.cne.internal.constants-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.data.cne.internal.server-V1.0-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.data.cne.internal.server-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.data.cne.internal.server-V1.1-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.data.cne.internal.server-V1.1-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.data.cne.internal.server-V1.2-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.data.cne.internal.server-V1.2-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.data.cne.internal.server-V1.3-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.data.cne.internal.server-V1.3-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.data.connection-V1.0-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.data.connection-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.data.connection-V1.1-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.data.connection-V1.1-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.data.dynamicdds-V1.0-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.data.dynamicdds-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.data.dynamicdds-V1.1-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.data.dynamicdds-V1.1-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.data.flow-V1.0-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.data.flow-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.data.flow-V1.1-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.data.flow-V1.1-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.data.iwlan-V1.0-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.data.iwlan-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.data.iwlan-V1.1-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.data.iwlan-V1.1-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.data.latency-V1.0-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.data.latency-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.data.lce-V1.0-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.data.lce-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.data.qmi-V1.0-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.dpmservice-V1.0-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.dpmservice-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.dpmservice-V1.1-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.dpmservice-V1.1-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.mwqemadapter-V1.0-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.mwqemadapter-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.slmadapter-V1.0-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.slmadapter-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.ims.callcapability-V1.0-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.ims.callcapability-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.ims.callinfo-V1.0-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.ims.callinfo-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.ims.configservice-V1.0-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.ims.configservice-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.ims.configservice-V1.1-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.ims.configservice-V1.1-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.ims.connection-V1.0-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.ims.connection-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.ims.factory-V1.0-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.ims.factory-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.ims.factory-V1.1-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.ims.factory-V1.1-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.ims.factory-V2.0-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.ims.factory-V2.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.ims.factory-V2.1-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.ims.factory-V2.1-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.ims.factory-V2.2-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.ims.factory-V2.2-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.ims.rcsconfig-V1.0-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.ims.rcsconfig-V1.1-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.ims.rcsconfig-V1.1-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.ims.rcsconfig-V2.0-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.ims.rcsconfig-V2.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.ims.rcsconfig-V2.1-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.ims.rcsconfig-V2.1-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.ims.rcssip-V1.0-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.ims.rcssip-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.ims.rcssip-V1.1-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.ims.rcssip-V1.1-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.ims.rcssip-V1.2-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.ims.rcssip-V1.2-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.ims.rcsuce-V1.0-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.ims.rcsuce-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.ims.rcsuce-V1.1-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.ims.rcsuce-V1.1-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.ims.rcsuce-V1.2-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.ims.rcsuce-V1.2-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.latency-V2.0-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.latency-V2.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.latency-V2.1-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.latency-V2.1-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.latency-V2.2-java",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/vendor.qti.latency-V2.2-java.jar"],
 	system_ext_specific: true,
 }
 
