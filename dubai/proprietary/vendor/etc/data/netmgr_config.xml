@@ -1953,7 +1953,7 @@
       <data name="dataformat_agg_ul_size" type="int"> 0 </data>
       <data name="dataformat_dl_data_aggregation_protocol" type="int"> 8 </data>
       <data name="dataformat_ul_data_aggregation_protocol" type="int"> 8 </data>
-      <data name="dataformat_dl_gro_enabled" type="int"> 0 </data>
+      <data name="dataformat_dl_gro_enabled" type="int"> 1 </data>
       <data name="dataformat_ul_gso_enabled" type="int"> 1 </data>
       <data name="phys_net_dev" type="string"> rmnet_ipa0 </data>
       <data name="netdev_max_backlog" type="int"> 10000 </data>
@@ -3128,7 +3128,6 @@
       <data name="pnd_rps_mask" type="int"> 2 </data>
       <data name="vnd_rps_mask" type="int"> 125 </data>
       <data name="qos_via_idl" type="int"> 1 </data>
-      <data name="skip_buffered_qos_modify" type="int"> 1 </data>
       <data name="max_mtu" type="int"> 9216 </data>
       <data name="netmgr_recovery_enabled" type="int"> 1 </data>
       <data name="num_modems" type="int"> 2 </data>
@@ -3272,7 +3271,6 @@
       <data name="pnd_rps_mask" type="int"> 2 </data>
       <data name="vnd_rps_mask" type="int"> 125 </data>
       <data name="qos_via_idl" type="int"> 1 </data>
-      <data name="skip_buffered_qos_modify" type="int"> 1 </data>
       <data name="max_mtu" type="int"> 9216 </data>
       <data name="netmgr_recovery_enabled" type="int"> 1 </data>
       <data name="num_modems" type="int"> 2 </data>
@@ -3421,7 +3419,6 @@
       <data name="pnd_rps_mask" type="int"> 2 </data>
       <data name="vnd_rps_mask" type="int"> 12 </data>
       <data name="qos_via_idl" type="int"> 1 </data>
-      <data name="skip_buffered_qos_modify" type="int"> 1 </data>
       <data name="max_mtu" type="int"> 9216 </data>
       <data name="netmgr_recovery_enabled" type="int"> 1 </data>
       <data name="num_modems" type="int"> 2 </data>

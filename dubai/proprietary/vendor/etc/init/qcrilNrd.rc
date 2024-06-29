@@ -5,8 +5,7 @@ service vendor.qcrild /vendor/bin/hw/qcrilNrd
     class main
     user radio
     disabled
-    socket cutback stream 660 audioserver radio
-    group radio cache inet misc audio log readproc wakelock oem_2901 net_raw wifi diag input
+    group radio cache inet misc audio log readproc wakelock oem_2901
     capabilities BLOCK_SUSPEND NET_ADMIN NET_RAW
 
 service vendor.qcrild2 /vendor/bin/hw/qcrilNrd -c 2
